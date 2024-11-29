@@ -20,6 +20,7 @@ USER superset
 RUN pip install --no-cache-dir --upgrade \
     PyAthena[SQLAlchemy]==3.9.0 \
     psycopg2-binary \
+    Authlib \
     python-ldap \
     boto3 \
     botocore \
